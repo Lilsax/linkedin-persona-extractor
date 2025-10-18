@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+langchain = "*"
+langchain-openai = "*"
+langchainhub = "*"
+black = "*"
+python-dotenv = "*"
+langchain-community = "*"
+langchain-anthropic = "*"
+langchain-google-genai = "*"
+langchain-ollama = "*"
+requests = "*"
+langchain-tavily = "*"
+flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
